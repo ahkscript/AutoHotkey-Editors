@@ -26,13 +26,13 @@ Available files (for AutoHotkey 2.x)
 
 ### Dedicated AutoHotkey Editors:
 
-* [AHK Studio](http://ahkscript.org/boards/viewtopic.php?f=6&t=300)
+* [AHK Studio](http://ahkscript.org/boards/viewtopic.php?f=6&t=300) - [Forum](http://ahkscript.org/boards/viewtopic.php?f=6&t=300) - Scintilla based editor written in AHK for AHK
 * [SciTE4AutoHotkey](http://fincs.ahk4.net/scite4ahk/) - [forum](http://ahkscript.org/boards/viewtopic.php?f=6&t=62)
 * [QuickAHK](http://www.autohotkey.net/~jballi/QuickAHK/v2.2/QuickAHK.zip) - [forum](http://www.autohotkey.com/board/topic/33125-quickahk-v22/)
 
 ### Installation scripts:
 
-* coming soon 
+* Coming soon
 
 ### Ready made syntax higlighting (may not be uptodate):
 
@@ -64,7 +64,8 @@ Available files (for AutoHotkey 2.x)
 
 ### Other
 
-* [GeSHi](https://github.com/GeSHi/)
+* [CodeQuickTester](http://ahkscript.org/boards/viewtopic.php?f=6&t=6113) - The quick code tester/editor
+* [GeSHi](https://github.com/GeSHi/) - PHP based "Generic Syntax Highlighter"
 * [Script: Syntax highlighting for posting AutoHotkey code on phpbb forums](https://github.com/ahkon/Highlite)
 * [Web Syntax Highlighters](https://github.com/ahkscript/awesome-AutoHotkey#web-syntax-highlighters)
 * [Wordpress plugin](https://wordpress.org/plugins/syntaxhighlighter-evolved-autohotkey-brush/)
