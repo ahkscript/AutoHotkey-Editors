@@ -84,6 +84,6 @@ If you write or update a script please do take into account the following:
 
 * Include any specific instructions at the top of your installer script(s)
 * Try to detect if syntax highlighting is already installed, if so, offer the option to the user to only update the Syntax File (and not affect any colour schemes they may already have setup)
-* Always have your script download these files from the GitHub repository: Keywords, Functions, Variables, Command Names and Keys. That way your script does not have to be updated when a new function or command is added.
+* Always have your script download these files from the GitHub repository: [Commands.txt](Commands.txt), [Directives.txt](Directives.txt), [Functions.txt](Functions.txt), [Keywords.txt](Keywords.txt), [Variables.txt](Variables.txt) and [Keys.txt](Keys.txt). That way your script does not have to be updated when a new function or command is added.
 * Submit a pull request to this GH repository to have your script included here
 
