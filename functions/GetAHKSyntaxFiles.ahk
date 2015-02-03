@@ -13,7 +13,7 @@ Commands, Functions, Keywords, Variables, Keys
 */
 GetAHKSyntaxFiles() {
    FileDelete, tmpfile$$$.htm
-   FileList:="Commands,Functions,Keywords,Variables,Keys"
+   FileList:="Commands,Directives,Functions,Keywords,Variables,Keys"
    Loop, parse, FileList, CSV
      {
       URLDownloadToFile, https://raw.github.com/ahkscript/AutoHotkey-Editors/master/%A_LoopField%.txt, tmpfile$$$.txt
