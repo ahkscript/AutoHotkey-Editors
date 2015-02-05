@@ -61,6 +61,7 @@ Available files (for AutoHotkey 2.x)
 
 * [EverEdit](http://www.everedit.net)
 * [notepad2-mod](http://xhmikosr.github.io/notepad2-mod/)
+* [SynWrite](http://sourceforge.net/projects/synwrite/)
 
 ### Other
 
