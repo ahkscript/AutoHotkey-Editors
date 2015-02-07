@@ -67,6 +67,7 @@ Available files (for AutoHotkey 2.x)
 
 * [CodeQuickTester](http://ahkscript.org/boards/viewtopic.php?f=6&t=6113) - The quick code tester/editor
 * [GeSHi](https://github.com/GeSHi/) - PHP based "Generic Syntax Highlighter"
+* [Highlight](http://www.andre-simon.de/doku/highlight/en/highlight.php) - converts sourcecode to HTML, XHTML, RTF, LaTeX, TeX, SVG, BBCode and terminal escape sequences with coloured syntax highlighting
 * [Script: Syntax highlighting for posting AutoHotkey code on phpbb forums](https://github.com/ahkon/Highlite)
 * [Web Syntax Highlighters](https://github.com/ahkscript/awesome-AutoHotkey#web-syntax-highlighters)
 * [Wordpress plugin](https://wordpress.org/plugins/syntaxhighlighter-evolved-autohotkey-brush/)
