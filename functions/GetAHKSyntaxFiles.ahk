@@ -8,7 +8,7 @@ removes empty lines and comments so that there is one keyword
 per line.
 
 Each "type" has its own file:
-Commands, Functions, Keywords, Variables, Keys
+Commands, Directives, Functions, Keywords, Variables, Keys
 
 */
 GetAHKSyntaxFiles() {
