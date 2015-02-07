@@ -32,7 +32,7 @@ Available files (for AutoHotkey 2.x)
 
 ### Installation scripts:
 
-* Coming soon
+* [Greenpad](editors/greenpad/)
 
 ### Ready made syntax higlighting (may not be uptodate):
 
@@ -42,6 +42,7 @@ Available files (for AutoHotkey 2.x)
 * [Notepad++](http://ahkscript.org/boards/viewtopic.php?f=7&t=50) - v6.5.1
 * [Sublime Text 2/3](https://github.com/ahkscript/SublimeAutoHotkey)
 * [TextPad](http://www.textpad.com/add-ons/files/syntax/autohotkey.zip) - *last update 2004*
+* [TotalHLT](syntax-files/TotalHLT/) - Language file for TotalHLT, a Lister plugin for Total Commander
 * [Vim](https://github.com/vim-scripts/autohotkey-ahk)
 
 **Gone missing or to do**

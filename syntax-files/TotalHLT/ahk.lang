@@ -1,0 +1,101 @@
+# AutoHotkey language definition file
+# ------------------------------------------
+# This file is a part of highlight, a free source code converter released under the GPL.
+#
+# The file is used to describe keywords and special symbols of programming languages.
+# See README in the highlight directory for details.
+#
+# New definition files for future releases of highlight are always appreciated ;)
+#
+# ----------
+# andre.simon1@gmx.de
+# http:/www.andre-simon.de/
+#
+# About TotalHLT & Total Commander
+# TotalHLT (Total Highlight) is a Lister plugin for Total Commander. 
+# The major function is to display source code files with syntax highlight. 
+# Available on totalcmd.net at http://www.totalcmd.net/plugring/hlight.html
+#
+# You might need to add the following line to "extensions.conf"
+# $ahk=ahk
+
+$KW_LIST(kwa)=goto gosub break return continue default if else while for throw try catch true false
+useerrorlevel between contains join alwaysontop caption border owner show mouse screen pixel caret
+relative window client delimiter disabled dpiscale hwndoutputvar lastfound lastfoundexist maximizebox
+minimizebox minsize maxsize owndialogs owner parent resize sysmenu theme toolwindow
+
+# could add styles such as e0x80000 http://ahkscript.org/docs/misc/Styles.htm
+
+$KW_LIST(kwb)=abs autotrim asin acos atan blockinput break catch ceil click clipwait
+comobjactive comobjarray comobjconnect comobjcreate comobjenwrap comobjunwrap
+comobjerror comobjflags comobjget comobjmissing comobjparameter comobjquery
+comobjtype comobjvalue continue control controlclick controlfocus controlget
+controlgetfocus controlgetpos controlgettext controlmove controlsend controlsendraw
+controlsettext coordmode cos critical detecthiddentext detecthiddenwindows dllcall
+drive driveget drivespacefree edit else envadd envdiv envget envmult envset envsub
+envupdate exit exitapp exp fileappend filecopy filecopydir filecreatedir filecreateshortcut
+filedelete fileencoding fileinstall filegetattrib filegetshortcut filegetsize filegettime
+filegetversion filemove filemovedir fileopen fileread filereadline filerecycle
+filerecycleempty fileremovedir fileselectfile fileselectfolder filesetattrib filesettime
+finally floor format formattime func getkeyname getkeyvk getkeysc getkeystate groupactivate
+groupadd groupclose groupdeactivate gui guicontrol guicontrolget hotkey ifequal ifnotequal
+ifexist ifnotexist fileexist ifgreater ifgreaterorequal ifinstring instr ifless iflessorequal
+ifmsgbox ifwinactive ifwinnotactive ifwinexist ifwinnotexist imagesearch inidelete iniread
+iniwrite input inputbox isbyref isfunc islabel isobject keyhistory keywait listhotkeys listlines
+listvars log ln loop menu mod mouseclick mouseclickdrag mousegetpos mousemove msgbox numget
+numput onexit onmessage outputdebug pause pixelgetcolor pixelsearch postmessage process progress
+random regexmatch regexreplace regdelete regread regwrite registercallback reload return round
+run runas runwait send sendraw sendinput sendplay sendlevel sendmessage sendmode setbatchlines
+setcapslockstate setcontroldelay setdefaultmousespeed setenv setformat setkeydelay setmousedelay
+setnumlockstate setscrolllockstate setregview setstorecapslockmode settimer settitlematchmode
+setwindelay setworkingdir shutdown sin sleep sort soundbeep soundget soundgetwavevolume soundplay
+soundset soundsetwavevolume splashimage splashtexton splashtextoff splitpath sqrt statusbargettext
+statusbarwait strput strget stringcasesense stringgetpos stringleft stringlen strlen stringlower
+stringmid substr stringreplace stringright stringsplit stringtrimleft stringtrimright stringupper
+suspend sysget tan thread throw tooltip transform traytip trim rtrim ltrim try until urldownloadtofile
+varsetcapacity while winactivate winactivatebottom winactive winclose winexist wingetactivestats
+wingetactivetitle wingetclass winget wingetpos wingettext wingettitle winhide winkill winmaximize
+winmenuselectitem winminimize winminimizeall winminimizeallundo winmove winrestore winset
+winsettitle winshow winwait winwaitactive winwaitclose winwaitnotactive
+
+$kw_list(kwc)=a_space a_tab a_workingdir a_scriptdir a_scriptname a_scriptfullpath a_scripthwnd
+a_linenumber a_linefile a_thisfunc a_thislabel a_ahkversion a_ahkpath a_isunicode
+a_iscompiled a_exitreason a_yyyy a_mm a_dd a_mmmm a_mmm a_dddd a_ddd a_wday a_yday
+a_yweek a_hour a_min a_sec a_msec a_now a_nowutc a_tickcount a_issuspended a_ispaused
+a_iscritical a_batchlines a_titlematchmode a_titlematchmodespeed a_detecthiddenwindows
+a_detecthiddentext a_autotrim a_stringcasesense a_fileencoding a_formatinteger
+a_formatfloat a_keydelay a_windelay a_controldelay a_mousedelay a_defaultmousespeed
+a_regview a_iconhidden a_icontip a_iconfile a_iconnumber a_timeidle a_timeidlephysical
+a_gui a_guicontrol a_guiwidth a_guiheight a_guix a_guiy a_guievent a_guicontrolevent
+a_eventinfo a_thismenuitem a_thismenu a_thismenuitempos a_thishotkey a_priorhotkey
+a_priorkey a_timesincethishotkey a_timesincepriorhotkey a_endchar comspec a_temp
+a_ostype a_osversion a_is64bitos a_ptrsize a_language a_computername a_username
+a_windir a_programfiles or programfiles a_appdata a_appdatacommon a_desktop
+a_desktopcommon a_startmenu a_startmenucommon a_programs a_programscommon a_startup
+a_startupcommon a_mydocuments a_isadmin a_screenwidth a_screenheight a_screendpi
+a_ipaddress1 a_ipaddress2 a_ipaddress3 a_ipaddress4 a_cursor a_caretx a_carety 
+a_lasterror a_index a_loopreadline a_loopfield a_loopfilename a_loopfileext
+a_loopfilefullpath a_loopfilelongpath a_loopfileshortpath a_loopfileshortname
+a_loopfiledir a_loopfiletimemodified a_loopfiletimecreated a_loopfiletimeaccessed
+a_loopfileattrib a_loopfilesize a_loopfilesizekb a_loopfilesizemb a_loopregname
+a_loopregtype a_loopregkey a_loopregsubkey a_loopregtimemodified
+clipboard clipboardall errorlevel
+win_7 win_8 win_8.1 win_vista win_2003 win_xp win_2000 win_nt4 win_95 win_98 win_me
+
+$STRINGDELIMITERS="
+
+$SL_COMMENT=;
+
+$ML_COMMENT=/* */
+
+$ALLOWNESTEDCOMMENTS=true
+
+$IGNORECASE=true
+
+$DIRECTIVE=#
+
+$ESCCHAR=`
+
+$SYMBOLS= ( ) [ ] { } , ; . : & | < > !  = / *  %  + -
+
+$REFORMATTING=true
