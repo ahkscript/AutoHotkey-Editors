@@ -32,6 +32,7 @@ Available files (for AutoHotkey 2.x)
 
 ### Installation scripts:
 
+* [EditPlus 2](editors/EditPlus2/)
 * [Greenpad](editors/greenpad/)
 
 ### Ready made syntax higlighting (may not be uptodate):
