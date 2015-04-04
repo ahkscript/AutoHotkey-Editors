@@ -45,6 +45,7 @@ Mod
 NumGet
 NumPut
 OnMessage
+Ord
 RegExMatch
 RegExReplace
 RegisterCallback
@@ -57,6 +58,7 @@ Sqrt
 StrGet
 StrLen
 StrPut
+StrReplace
 StrSplit
 SubStr
 Tan
